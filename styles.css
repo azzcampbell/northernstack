@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.landing {
+
+}
+
+.logo-text {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+}
+
+.logo {
+  width:30%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
