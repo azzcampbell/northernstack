@@ -8,6 +8,7 @@
 
 body {
     background-color: rgb(26, 27, 31);
+    font-family: "Poppins", sans-serif;
 }
 
 .main_container {
@@ -16,6 +17,12 @@ body {
     background-color: #edf0f1;
     border-radius: 5px;
     box-shadow: 20px 20px 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li, a, button {
@@ -31,6 +38,13 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 20px 10%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
 }
 
 button {
@@ -53,6 +67,10 @@ button:hover {
     margin-right: auto;
 }
 
+header a:nth-child(1) {
+    margin-right: auto;
+}
+
 .nav_links {
     list-style: none;
 }
@@ -68,4 +86,8 @@ button:hover {
 
 .nav_links li a:hover {
     color: rgb(0, 74, 173);
+}
+
+.red {
+    color: red;
 }
