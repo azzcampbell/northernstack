@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 50px;
 }
 
 li, a, button {
@@ -101,4 +102,50 @@ header a:nth-child(1) {
     .nav_links li {
         padding: 0 10px;
     }
+}
+
+.hero {
+    background-color: rgba(0, 74, 173, 1);
+    padding: 100px 0;
+    text-align: center;
+    color: #edf0f1;
+}
+
+.about,
+.projects,
+.blog {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.project {
+    background-color: #edf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.project h4 {
+    margin-bottom: 10px;
+}
+
+.container h3 {
+    padding: 0 20px; /* Add padding to the left and right of the h3 elements */
+}
+
+.section h1, h2, h3 {
+    color: white;
 }
