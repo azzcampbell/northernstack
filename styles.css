@@ -16,7 +16,7 @@ body {
     margin: auto;
     background-color: #edf0f1;
     border-radius: 5px;
-    box-shadow: 20px 20px 50px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -90,4 +90,15 @@ header a:nth-child(1) {
 
 .red {
     color: red;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .logo {
+        width: 50vw;
+    }
+
+    .nav_links li {
+        padding: 0 10px;
+    }
 }
