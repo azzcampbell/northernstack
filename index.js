@@ -9,7 +9,7 @@ class myHeader extends HTMLElement {
             <ul class="nav_links">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Projects</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="https://azzcampbell.github.io/blog">Blog</a></li>
             </ul>
         </nav>
         <a class="cta" href="#"><button>Contact</button></a>
